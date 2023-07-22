@@ -6,4 +6,3 @@ where  double quotes is just a reminder for string ends.
 string is a data type in python programming language. 
 string simply means a collection of characters.
 '''
-
