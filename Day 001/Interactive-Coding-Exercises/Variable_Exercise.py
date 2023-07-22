@@ -1,4 +1,4 @@
-# Swap Program 
+# Swap Variable Program 
 
 # Don't change the code below 
 a = input("a:")
