@@ -31,6 +31,7 @@ for student in students_heights:
     number_of_students += 1
 print(number_of_students)
 
+
 # total_height = sum(students_heights)
 # number_of_students = len(students_heights)
 # average_height = round(total_height / number_of_students)
