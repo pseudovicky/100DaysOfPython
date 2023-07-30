@@ -19,7 +19,6 @@ student_scores = {
 # Don't change the code above 
 
 # Todo 1 : Create an empty dictionary called student_scores.
-
 student_grades = {}
 
 # Todo 2 : Write your code below to add the grades.
@@ -34,6 +33,5 @@ for student in student_scores:
         student_grades[student] = "Acceptable"
     else:
         student_grades[student] = "Fail"
-
 #  Don't change the code below 
 print(student_grades)
