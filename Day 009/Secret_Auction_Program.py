@@ -32,7 +32,6 @@ def find_highest_bidder(bidding_record):
             winner = bidder 
     print("The winner is {winner} with a bid of ${highest_bid}")
 
-
 while not bidding_finished:
     name = input("What is your name? ")
     price = input("What is your bid? $")
@@ -42,7 +41,7 @@ while not bidding_finished:
         find_highest_bidder(bids)
     elif should_countinue == "yes":
         os.system('clear')
-        
+
 
 
 
