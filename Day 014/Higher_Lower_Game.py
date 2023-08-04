@@ -1,7 +1,7 @@
 from art import logo,vs
 from game_date import data
 import random
-# from replit import clear
+# from os 
 
 def format_data(account):
     """Takes the account data and returns the printable format."""
@@ -26,8 +26,6 @@ account_b = random.choice(data)
 
 # make the game repeatable
 while game_should_continue:
-    # clear()
-
     # Making account at position B become the next account at position A.
     account_a = account_b
     account_b = random.choice(data)
@@ -47,6 +45,10 @@ while game_should_continue:
     a_follower_count = account_a["follower_count"]
     b_follower_count = account_b["follower_count"]
     is_correct = check_answer(guess, a_follower_count, b_follower_count)
+    
+    # clear the screen between rounds.
+    # os.system('clear')
+    print(logo)
 
     # Give user feedback on their guess.
     # Score keeping
@@ -59,4 +61,3 @@ while game_should_continue:
 
 
 
-# clear the screen between rounds.
