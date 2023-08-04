@@ -63,3 +63,11 @@ def mutate(a_list):
 mutate([1,2,3,4,5,8,13])
 # Bug report:
 # there is just a undentation problem in line 61 indented it inside the for loop.
+
+# final debugging tips 
+# Take a break 
+# ask a friend 
+# run often - run it after every execution.
+# ask StackOverflow
+
+
