@@ -1,7 +1,7 @@
 # hint 4 : create a deal_card() function that uses the list below to return a random card.
 # 11 is the Ace.
 import random
-import os
+# import os
 from art import logo 
 def deal_card():
     '''Returns a random card from the deck.'''
@@ -60,7 +60,7 @@ for _ in range(2):
 # hint 9 : call calculate_score(). if the computer or the user has a blackjack (0) or 
 # if the user's score is over 21, then the game ends.
 user_score = calculate_score(user_cards)
-computer_score = calculate_score = calculate_score(computer_cards)
+computer_score = calculate_score(computer_cards)
 print(f" your cards : {user_cards}, current score : {user_score}")
 print(f" Computer's first card: {computer_cards[0]}")
 
@@ -69,7 +69,7 @@ if user_score == 0 or computer_score == 0 or user_score > 21:
 else:
     # hint 10 : if the game has not ended, ask the user if they want to draw another card. if yes, then
     # use the dead_card() function to add another card to the user_cards list. if no, then the game has ended.
-    use_should_deal = input ("Type 'y' to get another card, type 'n' to pass: ")
+    use_should_deal = input("Type 'y' to get another card, type 'n' to pass: ").lower()
     if use_should_deal == "y":
         user_cards.append(deal_card())
     else:
@@ -82,11 +82,11 @@ while computer_score != 0 and computer_score < 17:
     computer_cards.append(deal_card())
     computer_score = calculate_score(computer_cards)
 print(f" Your final hand: {user_cards}, final score: {user_score}")
-print(f" Computer's final hand: {computer_cards}, fial score : {computer_score}")
+print(f" Computer's final hand: {computer_cards}, final score : {computer_score}")
 print(compare(user_score, computer_score))
 
 # hint 14 : Ask the user if they want to restart the game . 
 # if they answer yes, claer the consol and start a new game of blackjack and  show the logo from art.py
 while input("Do you want to play a game of blackjack? type 'y' or 'n' : " ) == "y":
-    os.clear()
+    # os.clear()
     play_game()

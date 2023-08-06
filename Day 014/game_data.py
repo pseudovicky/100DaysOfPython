@@ -9,34 +9,34 @@ data = [
     {
         'name': "Critiano Ronaldo",
         'follower_count': 215,
-        "discription": 'footballer',
+        "description": 'footballer',
         'country': 'portugal',
     },
 
     {
         'name': "Ariana Grade",
         'follower_count': 215,
-        "discription": 'Musician and actress',
+        "description": 'Musician and actress',
         'country': 'United States',
     },
 
     {
         'name': "Dwayne johnson",
         'follower_count': 181,
-        "discription": 'Actor and professional wrestler',
+        "description": 'Actor and professional wrestler',
         'country': 'United states',
     },
     
     {
         'name': "Virat Kohli",
         'follower_count': 200,
-        "discription": 'Cricketer',
+        "description": 'Cricketer',
         'country': 'India',
     },
     {
         'name': "anne marie",
         'follower_count': 100,
-        "discription": 'Singer',
+        "description": 'Singer',
         'country': 'USA',
     },
 

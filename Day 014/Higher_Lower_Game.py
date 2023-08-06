@@ -1,14 +1,14 @@
 from art import logo,vs
-from game_date import data
+from game_data import data
 import random
 # from os 
 
 def format_data(account):
     """Takes the account data and returns the printable format."""
     account_name = account["name"]
-    account_descr = account["discription"]
+    account_descr = account["description"]
     account_country = account["country"]
-    return f"{account_name}, a {account_descr}, from {account_country}"
+    return f"{account_name}, is a {account_descr}, from {account_country}"
 
 def check_answer(guess, a_followers, b_followers):
     """Take the user guess and folowers counts and returns if they got it right."""
@@ -33,9 +33,9 @@ while game_should_continue:
     if account_a == account_b :
         account_b = random.choice(data)
 
-    print(f"Compare A: {format_data(account_a)}")
+    print(f" Compare A: {format_data(account_a)}")
     print(vs)
-    print(f"Against B: {format_data(account_b)}")
+    print(f" Against B: {format_data(account_b)}")
 
     # ask user for a guess
     guess = input("Who has more followers? Type 'A' or 'B' ").lower()
