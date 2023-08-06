@@ -33,5 +33,11 @@ data = [
         "discription": 'Cricketer',
         'country': 'India',
     },
+    {
+        'name': "anne marie",
+        'follower_count': 100,
+        "discription": 'Singer',
+        'country': 'USA',
+    },
 
 ]
