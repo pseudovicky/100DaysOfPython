@@ -4,3 +4,4 @@
 ## #100DaysOfPython
 
 ## Day 001 : [ Working With Python Variables To manage Data ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20001%20-%20Beginner%20-%20Working%20With%20Variables%20In%20Python%20to%20Manage%20Data)
+## Day 002 : [ Working With Python Variables To manage Data ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20001%20-%20Beginner%20-%20Working%20With%20Variables%20In%20Python%20to%20Manage%20Data)
