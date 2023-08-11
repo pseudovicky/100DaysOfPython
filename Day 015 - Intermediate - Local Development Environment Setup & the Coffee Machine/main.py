@@ -64,7 +64,7 @@ def make_coffee(drink_name, order_inegredients):
     '''Deduct the required ingredient from the resources.'''
     for item in order_inegredients:
         resources[item] -= order_inegredients[item]
-    print(f"Here is your {drink_name} ☕️ ,Enjoy.")
+    print(f"Here is your {drink_name} ☕️ , Enjoy.")
 
 is_on = True
 
@@ -83,3 +83,4 @@ while is_on:
             payment = process_coins()
             if is_transaction_successful(payment,drink["cost"]):
                 make_coffee(choice, drink["ingredients"])
+                
