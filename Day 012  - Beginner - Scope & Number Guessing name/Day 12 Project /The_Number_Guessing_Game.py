@@ -33,7 +33,7 @@ def game():
     print(welcome)
     print("I'm thinking of a number between 1 and 100.")
     answer = random.randint(1,100)
-    print(f"Pssst, the correct answer is {answer}")
+    print(f"the correct answer is {answer}")
 
     turns = set_difficulty()
     
@@ -49,7 +49,6 @@ def game():
         turns = check_answer(guess, answer, turns)
         if turns == 0:
             print("You've run out of gusses, you lose.")
-            return
         elif guess != answer:
             print("Guess again !")
 game()
