@@ -18,7 +18,7 @@ def go_up():
 
 def go_down():
     new_y = paddle.year() - 20
-    paddle.onkey(go_up, new_y)
+    paddle.onkey(paddle.xcor(), new_y)
 
 screen.listen()
 screen.onkey(go_up, "Up")
