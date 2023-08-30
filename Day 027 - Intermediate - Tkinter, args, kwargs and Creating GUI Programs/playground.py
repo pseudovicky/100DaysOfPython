@@ -23,3 +23,6 @@ button.pack()
 input = Entey(width=10)
 input.pack()
 print(input.get())
+
+
+window.mainloop()
