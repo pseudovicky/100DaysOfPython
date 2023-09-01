@@ -60,11 +60,11 @@ canvas.grid(row=0, column=1)
 
 # Labels
 
-website_label = Label(text="Website:")
+website_label = Label(text="Website:", foreground="#952323")
 website_label.grid(row=1, column=0)
-email_label = Label(text="Email/Username:")
+email_label = Label(text="Email/Username:", foreground="#071952")
 email_label.grid(row=2,column=0)
-password_label = Label(text="password:")
+password_label = Label(text="password:", foreground="#0C356A")
 password_label.grid(row=3, column=0)
 
 # Entries 
