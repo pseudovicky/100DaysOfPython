@@ -38,7 +38,7 @@ def save():
         is_ok = messagebox.askokcancel(title=website, message=f"There are the details entered:\nEmail : {email} \nPassword : {password} \nIs it ok to save?")
 
         if is_ok:
-            with open("data.txt", "a") as data_file:
+            with open("/Users/vickys-mackbook-air/100DaysOfPython/Day 029 - Intermediate - Building a Password Manager GUI App with Tkinter/data.txt", "a") as data_file:
                 data_file.write(f"{website} | {email} | {password}\n")
                 website_entry.delete(0, END)
                 password_entry.delete(0, END)
