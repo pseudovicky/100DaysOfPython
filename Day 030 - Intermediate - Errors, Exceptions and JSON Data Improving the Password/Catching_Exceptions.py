@@ -14,13 +14,22 @@ try:
         "age" : 23,
         "course" : "100DayaOfPython",
         "Current_Day" : 30,
+        "city": "no",
     }
     print(a_dictionary["city"])
-except FileNotFoundError:
-    print("There was an error in try block!")
+except FileNotFoundError as filename:
+    print(f"There was an error in try block! the {filename} is not exist.")
     file = open("/Users/vickys-mackbook-air/100DaysOfPython/Day 030 - Intermediate - Errors, Exceptions and JSON Data Improving the Password/file.txt", "w")
     file.write("Something")
-except KeyError:
-    print("That key does not ")
-    print(a_dictionary["name"])
+except KeyError as error_message:
+    print(f"That key {error_message} does not exist in given dictionary data set.")
+    print(a_dictionary["name"]) 
+else:
+    # if there is no error in try block else block run.
+    content = file.read()
+    print(content)
+finally:
+    # it runs everytime no matter what happens is try except and else block.
+    file.close()
+    print(f" hey, {a_dictionary["name"]}, Now You are in finnaly block.")
 
