@@ -22,5 +22,10 @@ fruit = fruit_list[3]
 # Error msg = IndexError: list index out of range 
 
 
+# 4. TypeError
+name = "Vicky"
+age = 23
+print(name + age)
 
+# Error msg = TypeError: can only concatenate str (not "int") to str
 
