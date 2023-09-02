@@ -15,4 +15,12 @@ value = a_dictionary["non_existent_key"]
 # Error msg = KeyError: 'non_existent_key'
 
 
+# 3. IndexError 
+fruit_list = ["Apple", "Banana", "Pear"]
+fruit = fruit_list[3]
+
+# Error msg = IndexError: list index out of range 
+
+
+
 
