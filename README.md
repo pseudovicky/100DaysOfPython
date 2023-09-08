@@ -16,3 +16,5 @@ Day 006 : [ Python Functions & Karel ](https://github.com/pseudovicky/100DaysOfP
 
 Day 007 : [ Hangman ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20007%20-%20Beginner%20-%20Hangman)
 
+Day 008 : [ Function parameters & Caesar Cipher ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20008%20-%20Beginner%20-%20Function%20parameters%20%26%20Caesar%20Cipher)
+
