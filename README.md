@@ -13,3 +13,6 @@ Day 004 : [ Randomisation and Python Lists ](https://github.com/pseudovicky/100D
 Day 005 : [ Python Loops ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20005%20-%20Beginner%20-%20Python%20Loops)
 
 Day 006 : [ Python Functions & Karel ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20006%20-%20Beginner%20-%20Python%20Functions%20%26%20Karel)
+
+Day 007 : [ Hangman ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20007%20-%20Beginner%20-%20Hangman)
+
