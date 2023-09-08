@@ -18,3 +18,5 @@ Day 007 : [ Hangman ](https://github.com/pseudovicky/100DaysOfPython/tree/main/D
 
 Day 008 : [ Function parameters & Caesar Cipher ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20008%20-%20Beginner%20-%20Function%20parameters%20%26%20Caesar%20Cipher)
 
+Day 009 : [ Dictionaries, nesting and The Secret auction ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20009%20-%20Beginner%20-%20Dictionaries%2C%20nesting%20and%20The%20Secret%20auction)
+
