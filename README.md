@@ -8,7 +8,7 @@ Day 002 : [ Understanding Data Types and How to manipulate Strings ](https://git
 
 Day 003 : [ Control Flow and Logical Operators ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20003%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators)
 
-Day 004 : [ Randomisation and Python Lists ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20004%20-%20Beginner%20-%20Randomisation%20and%20python%20Lists)
+Day 004 : [ Randomisation and Python Lists ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20004%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists)
 
 Day 005 : [ Python Loops ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20005%20-%20Beginner%20-%20Python%20Loops)
 
@@ -19,4 +19,6 @@ Day 007 : [ Hangman ](https://github.com/pseudovicky/100DaysOfPython/tree/main/D
 Day 008 : [ Function parameters & Caesar Cipher ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20008%20-%20Beginner%20-%20Function%20parameters%20%26%20Caesar%20Cipher)
 
 Day 009 : [ Dictionaries, nesting and The Secret auction ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20009%20-%20Beginner%20-%20Dictionaries%2C%20nesting%20and%20The%20Secret%20auction)
+
+Day 010 : [ Functions With Outputs ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20010%20-%20Beginner%20-%20Functions%20With%20Outputs)
 
