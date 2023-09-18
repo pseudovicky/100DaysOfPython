@@ -22,3 +22,4 @@ Day 009 : [ Dictionaries, nesting and The Secret auction ](https://github.com/ps
 
 Day 010 : [ Functions With Outputs ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20010%20-%20Beginner%20-%20Functions%20With%20Outputs)
 
+Day 011 : [ The Blackjack Capstone Project ](https://github.com/pseudovicky/100DaysOfPython/tree/main/Day%20011%20-%20Beginner%20-%20The%20Blackjack%20Capstone%20Project)
