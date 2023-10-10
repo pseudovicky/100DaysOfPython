@@ -7,6 +7,7 @@
 
 # FileNotFound 
 
+
 try:
     file = open('/Users/vickys-mackbook-air/100DaysOfPython/Day 030 - Intermediate - Errors, Exceptions and JSON Data Improving the Password/file.txt')
     a_dictionary = { 
