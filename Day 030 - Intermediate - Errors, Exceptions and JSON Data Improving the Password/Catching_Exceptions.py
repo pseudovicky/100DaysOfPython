@@ -28,5 +28,13 @@ else:
     # if there is no error in try block else block run.
     content = file.read()
     print(content)
-
+finally:
+    # it runs everytime no matter what happens is try except and else block.
+    file.close()
+    print(f" hey, {a_dictionary["name"]}, Now You are in finnaly block.")
+    
+    # raise an error using raise keyword
+    raise KeyError("This is an error that i made up.")
+    # raise FileNotFoundError
+    # raise IndentationError
 
